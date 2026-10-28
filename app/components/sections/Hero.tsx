@@ -58,12 +58,12 @@ export function Hero() {
           </motion.div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.94] max-w-5xl mb-6 text-[var(--text-primary)]">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.14] max-w-4xl mb-8 text-[var(--text-primary)]">
             Architecting fluid web apps & high-velocity digital products.
           </h1>
 
           {/* Professional Bio */}
-          <p className="text-base sm:text-lg md:text-xl text-[var(--text-secondary)] max-w-3xl leading-relaxed mb-8">
+          <p className="text-base sm:text-lg text-[var(--text-secondary)] max-w-2xl leading-relaxed mb-10">
             Full-stack engineer with production experience building high-performance web applications using{" "}
             <span className="text-[var(--text-primary)] font-semibold">Next.js</span>,{" "}
             <span className="text-[var(--text-primary)] font-semibold">React</span>,{" "}
