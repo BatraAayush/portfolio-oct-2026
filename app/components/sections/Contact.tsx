@@ -114,22 +114,25 @@ export function Contact() {
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-[var(--accent)]/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header */}
-      <div className="mb-14">
-        <div className="flex items-center gap-2 mb-3">
+      <div className="flex items-center justify-between mb-16">
+        <div className="flex items-center gap-2">
           <Mail className="w-4 h-4 text-[var(--accent)]" />
           <h2 className="font-mono text-xs uppercase tracking-widest text-[var(--text-secondary)]">
-            Initiate Contact // 07
+            Initiate Contact
           </h2>
         </div>
-        <h3 className="text-3xl sm:text-5xl font-extrabold tracking-tight">
-          Let’s build something remarkable.
-        </h3>
+        <span className="font-mono text-xs text-[var(--text-secondary)]">
+          CONNECT // 07
+        </span>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         {/* Left Column: Direct info, Quick Copy, Socials */}
         <div className="lg:col-span-5 flex flex-col justify-between space-y-8">
           <div>
+            <h3 className="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4">
+              Let’s build something remarkable.
+            </h3>
             <p className="text-[var(--text-secondary)] text-base sm:text-lg leading-relaxed mb-8">
               Whether you have an upcoming project, an engineering role, or just want to chat about modern full-stack web architectures — drop a message in the form and it will be sent directly to my inbox.
             </p>
